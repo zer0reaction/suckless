@@ -12,16 +12,26 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
 static const char *fonts[]          = { "IosevkaNerdFont Mono:size=10" };
 static const char dmenufont[]       = "IosevkaNerdFont Mono:size=10";
-static const char col_gray1[]       = "#0d213b";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#6fcaf7";
+static const char col_gray1[]       = "#002b36";
+static const char col_gray2[]       = "#073642";
+static const char col_gray3[]       = "#839496";
+static const char col_gray4[]       = "#93a1a1";
+static const char col_cyan[]        = "#174956";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray1, col_cyan,  col_cyan  },
+	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 };
+//static const char col_gray1[]       = "#0d213b";
+//static const char col_gray2[]       = "#444444";
+//static const char col_gray3[]       = "#bbbbbb";
+//static const char col_gray4[]       = "#eeeeee";
+//static const char col_cyan[]        = "#6fcaf7";
+//static const char *colors[][3]      = {
+//	/*               fg         bg         border   */
+//	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+//	[SchemeSel]  = { col_gray1, col_cyan,  col_cyan  },
+//};
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
