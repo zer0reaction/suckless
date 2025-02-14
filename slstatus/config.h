@@ -71,5 +71,5 @@ static const struct arg args[] = {
 	{ disk_free,    "/: %s | ",     "/"                                  },
 	{ keymap,       "%s | ",        ""                                   },
 	{ temp,         "cpu temp: %s C | ",      "/sys/class/hwmon/hwmon5/temp1_input"},
-	{ battery_perc, "bat: %s%% left",    "BAT0"                               },
+	{ battery_perc, "bat: %s%%",    "BAT0"                               },
 };
